@@ -42,6 +42,7 @@ html {
   color: #fff;
   background-color: #f35a69;
   border: none;
+  cursor: pointer;
 }
 
 #scoreBoard {
