@@ -21,3 +21,45 @@ html {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
 }
+
+#start,
+.boardInfo {
+  font-size: 25px;
+}
+
+#gameOver {
+  display: none;
+}
+
+.boardInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#start {
+  font-family: 'Share Tech Mono', monospace;
+  color: #fff;
+  background-color: #f35a69;
+  border: none;
+}
+
+#scoreBoard {
+  display: inline-flex;
+}
+
+.square {
+  aspect-ratio: 1; /* Esto sirve para que sean cuadrados */
+}
+
+.emptySquare {
+  background-color: #456990;
+}
+
+.snakeSquare {
+  background-color: #ccf47f;
+}
+
+.foodSquare {
+  background-color: #f35a69;
+}
