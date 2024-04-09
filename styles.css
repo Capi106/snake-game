@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+#board,
+.boardInfo {
+  max-width: 500px;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
